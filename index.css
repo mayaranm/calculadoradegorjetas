@@ -33,9 +33,13 @@ p,spam{
 }
 body{
     display: flex;
+    padding: 0 4rem;
+    background: #232323;
+    color: #fff;
 }
 .container{
     width: 50%;
+    margin-top: 12rem;
 }
 
 /* #232323 - Background página
