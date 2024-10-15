@@ -31,6 +31,12 @@ p,spam{
     font-size: 0.875rem;
     font-weight: 400;
 }
+body{
+    display: flex;
+}
+.container{
+    width: 50%;
+}
 
 /* #232323 - Background página
 #424242 - Stroke
