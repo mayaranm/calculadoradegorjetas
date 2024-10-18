@@ -8,6 +8,10 @@
 input{
     all: unset;
 }
+button{
+    all: unset;
+}
+
 
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
