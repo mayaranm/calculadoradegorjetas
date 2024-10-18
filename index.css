@@ -85,6 +85,10 @@ body{
     border: 2px solid #424242;
 }
 
+.primary{
+     background: #1C7ED6;
+}
+
 /* #232323 - Background página
 #424242 - Stroke
 #FFF - Texto
