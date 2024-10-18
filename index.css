@@ -86,7 +86,20 @@ body{
 }
 
 .primary{
-     background: #1C7ED6;
+    background: #1C7ED6;
+    padding: 0.750rem;
+    border-radius: 0.25rem;
+    
+}
+button{
+    transition: 1s all;
+    opacity: 0.95;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 1.1;
+    transition: 1s all;
 }
 
 /* #232323 - Background página
