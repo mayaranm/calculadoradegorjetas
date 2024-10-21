@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Calculadora de Gorjetas</title>
+        <title>Calculadora de gorjeta</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -12,12 +12,12 @@
     </head>
     <body class: "flex flex-col">
         <div class="container">
-            <h2>Calculadora de Gorjetas</h2>
+            <h2>Calculadora de gorjeta</h2>
             <form onsubmit="calculateTip(event)">
                 <label class="block mt-4" for="value">Valor da refeição</label>
-                <input class="mt-1" type="number" name="value" id="value" placeholder="100"/>
+                <input class="mt-1 calculate-input" type="number" name="value" id="value" placeholder="100"/>
                 <label class="block mt-3" for="percentage">Porcentagem da gorjeta</label>
-                <input class="mt-1" type="number" name="percentage" id="percentage" placeholder="100"/>
+                <input class="mt-1 calculate-input" type="number" name="percentage" id="percentage" placeholder="100"/>
                 <button class="block mt-4 primary" type="submit">Calcular</button>
             </form>
         </div>
@@ -32,7 +32,7 @@
                     </div>
 
                     <div>
-                        <p>Valor Original</p>
+                        <p>Valor original</p>
                         <p id="originalvalue" class="mt-1">100 R$</p>
                     </div>
                 </div>
