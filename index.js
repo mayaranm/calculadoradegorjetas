@@ -5,7 +5,7 @@ const calculateTip = (event) => {
   // pegar value 
   const value = formData.get("value");
   //pegar percentage
-  const percentage = formData.get("percentag");
+  const percentage = formData.get("percentage");
   console.log(value, percentage);
 };
 
