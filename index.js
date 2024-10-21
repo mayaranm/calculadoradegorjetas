@@ -16,9 +16,9 @@ const calculateTip = (event) => {
   const percentage = formData.get("percentage");
   const percentageValeu = calculatePercentage(value, percentage);
 
-  tagOriginalValue.textContent = value;
-  tagTipValue.textContent = percentageValue;
-  tagTotalValue.textContent = Number(value) + percentageValue;
+  tagOriginalValue.textContent = value + R$;
+  tagTipValue.textContent = percentageValue + R$;
+  tagTotalValue.textContent = `${Number(value) + percentageValue}R$`;
   
   console.log(value, percentage);
 };
