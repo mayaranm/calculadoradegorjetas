@@ -56,6 +56,9 @@ body{
     padding: 0 4rem;
     background: #232323;
     color: #fff;
+    max-width: 1000px;
+    margin: auto;
+    
 }
 .container{
     width: 50%;
@@ -118,6 +121,12 @@ button:hover{
 
 .gap-2{
     gap: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .flex-col{
+        flex-direction: column;
+    }
 }
 
 /* #232323 - Background página
