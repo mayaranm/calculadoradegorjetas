@@ -15,25 +15,25 @@
             <h2>Calculadora de Gorjetas</h2>
             <form onsubmit="calculateTip()">
                 <label class="block mt-4" for="value">Valor da refeição</label>
-                <input class="mt-1 calculate-input"  type="number" name="value" id="value" placeholder="100"/>
+                <input class="mt-1" type="number" name="value" id="value" placeholder="100"/>
                 <label class="block mt-3" for="percentage">Porcentagem da gorjeta</label>
-                <input class="mt-1 calculate-input" type="number" name="percentage" id="percentage" placeholder="100"/>
-                <button class="block mt-4 primary" type="submit">Calcular</button>
+                <input class="mt-1" type="number" name="percentage" id="percentage" placeholder="100"/>
+                <button class="block mt-4" type="submit">Calcular</button>
             </form>
         </div>
         <div class="container">
             <div class="card">
-                <p>Pagamento total é de:</p>
-                <h1>200R$</h1>
-                <div>
+                <p class="align-center">Pagamento total é de:</p>
+                <h1 class="align-center mt-2">200R$</h1>
+                <div class="flex gap-2 mt-4">
                     <div>
                         <p>Valor da gorjeta</p>
-                        <p>100 R$</p>
+                        <p class="mt-1">100 R$</p>
                     </div>
 
                     <div>
                         <p>Valor Original</p>
-                        <p>100 R$</p>
+                        <p  class="mt-1">100 R$</p>
                     </div>
                 </div>
             </div>
