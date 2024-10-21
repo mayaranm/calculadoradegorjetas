@@ -17,7 +17,7 @@ const calculateTip = (event) => {
   const percentageValeu = calculatePercentage(value, percentage);
 
   tagOriginalValue.textContent = value + R$;
-  tagTipValue.textContent = percentageValue + R$;
+  tagTipvalue.textContent = percentageValue + R$;
   tagTotalValue.textContent = `${Number(value) + percentageValue}R$`;
   
   console.log(value, percentage);
