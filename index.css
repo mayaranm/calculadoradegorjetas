@@ -101,6 +101,24 @@ button:hover{
     opacity: 1.1;
     transition: 1s all;
 }
+.card{
+    background: #2E2E2E;
+    padding: 3rem;
+    border-radius: 0.25rem;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gap-2{
+    gap: 1rem;
+}
 
 /* #232323 - Background página
 #424242 - Stroke
