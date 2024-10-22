@@ -1,6 +1,6 @@
 # Calculadora de Gorjetas
 
-![Screenshot](https://link-da-sua-imagem-aqui) <!-- Adicione uma captura de tela do seu projeto -->
+![Screenshot](image/CalculateTip.png) <!-- Adicione uma captura de tela do seu projeto -->
 
 ## Descrição
 
